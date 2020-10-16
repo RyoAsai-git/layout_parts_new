@@ -3,7 +3,7 @@
 /* 回答はここに書いてね */
 .contents {
   background-color: #eff3f4;
-  padding: 10px;
+  padding: 20px;
 }
 
 .content {
@@ -12,7 +12,10 @@
   line-height: 55px;
   table-layout: fixed;
   display: table;
-  padding: 10px 0;
+}
+
+.content:first-child {
+  padding-bottom: 20px;
 }
 
 .fixed-salmon-pink {
@@ -23,7 +26,6 @@
 
 .variable-pink {
   background-color: #DDA0DD;
-  /* width: 80%; */
   display: table-cell;
 }
 
@@ -45,7 +47,7 @@
 
 .fixed-green {
   background-color: #00FA9A;
-  width: 450px;
+  width: 550px;
   display: table-cell;
 }
 /* 回答はここに書いてね */
