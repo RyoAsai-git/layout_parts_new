@@ -10,12 +10,15 @@
 
 .float-left-text {
   float: left;
-  width: 200px;
+  width: 225px;
+  box-sizing: border-box;
 }
 
 .float-right-text {
-  float: right;
-  width: 200px;
+  float: left;
+  width: 225px;
+  margin-left: 50px;
+  box-sizing: border-box;
 }
 
 .display-boxes {
@@ -24,6 +27,13 @@
 
 .display-box {
   display: table-cell;
+  width: 225px;
+  padding-left: 50px;
+}
+
+.display-box:first-child {
+  padding-left: 0;
+  vertical-align: middle;
 }
 
 /* 回答はここに書いてね */
