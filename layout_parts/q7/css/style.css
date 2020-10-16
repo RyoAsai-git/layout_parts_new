@@ -36,14 +36,17 @@
   vertical-align: middle;
 }
 
-.inline-block-left {
+.inline-block {
   display: inline-block;
   width: 225px;
+  box-sizing: border-box;
+  margin-left: 50px;
+  vertical-align: middle;
+  font-size: 16px;
 }
 
-.inline-block-right {
-  display: inline-block;
-  width: 225px;
+.inline-block:first-child {
+  margin-left: 0;
 }
 
 /* 回答はここに書いてね */
