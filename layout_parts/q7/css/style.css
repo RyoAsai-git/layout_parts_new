@@ -8,17 +8,17 @@
   clear: both;
 }
 
-.float-left-text {
+.float-text {
   float: left;
   width: 225px;
   box-sizing: border-box;
+  margin-left: 50px;
 }
 
-.float-right-text {
+.float-text:first-child{
   float: left;
   width: 225px;
-  margin-left: 50px;
-  box-sizing: border-box;
+  margin-left: 0;
 }
 
 .display-boxes {
@@ -36,11 +36,11 @@
   vertical-align: middle;
 }
 
-.inline-block-boxes {
+.inline-block-box {
   font-size:0;
 }
 
-.inline-block {
+.inline-block-text {
   display: inline-block;
   vertical-align: middle;
   width: 225px;
@@ -49,8 +49,48 @@
   font-size: 16px;
 }
 
-.inline-block:first-child {
+.inline-block-text:first-child {
   margin-left: 0;
+}
+
+.flex-text-box {
+  display: flex;
+  justify-content: space-around;
+}
+
+.flex-text {
+  width: 225px;
+  margin-left: 20px;
+}
+
+.flex-text:first-child {
+  margin-top: 50px;
+  margin-left: 0;
+}
+
+.box-left {
+  display: inline-block;
+  vertical-align: top;
+  width: 300px;
+  font-size: 0;
+}
+
+.text-left {
+  font-size: 16px;
+}
+
+.box-right {
+  display: inline-block;
+  margin-left: -344.5px;
+  padding-left: 390px;
+  box-sizing: border-box;
+  width: 103%;
+  font-size: 0;
+}
+
+.text-right {
+  font-size: 16px;
+  padding: 20px;
 }
 
 /* 回答はここに書いてね */
