@@ -25,10 +25,10 @@
 .speech-bubble-area::after {
   content: "";
   position: absolute;
-  top: 95%;
+  top: 95.5%;
   right: 86%;
   border-style: solid;
-  border-width: 26px 25px 0px 25px;
+  border-width: 25px 25px 0px 25px;
   border-color: #ffffff transparent transparent;
 }
 
