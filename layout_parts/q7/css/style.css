@@ -36,4 +36,14 @@
   vertical-align: middle;
 }
 
+.inline-block-left {
+  display: inline-block;
+  width: 225px;
+}
+
+.inline-block-right {
+  display: inline-block;
+  width: 225px;
+}
+
 /* 回答はここに書いてね */

@@ -20,45 +20,10 @@
   position: absolute;
 }
 
-.box8 {
-  background-color: #de70cf;
-  top: 120px;
-  left: 120px;
-  z-index: 6;
-}
-
-.box5 {
-  background-color: #9fd6d2;
-  left: 200px;
-  bottom: 40px;
-  z-index: 3;
-}
-
 .box1 {
   background-color: #ffefd3;
   left: 200px;
   top: 40px;
-}
-
-.box7 {
-  background-color: #deae70;
-  left: 40px;
-  top: 200px;
-  z-index: 5;
-}
-
-.box4 {
-  background-color: #8b7a5e;
-  right: 120px;
-  bottom: 120px;
-  z-index: 2;
-}
-
-.box6 {
-  background-color: #fffee4;
-  left: 120px;
-  bottom: 120px;
-  z-index: 4;
 }
 
 .box2 {
@@ -72,6 +37,41 @@
   right: 40px;
   top: 200px;
   z-index: 1;
+}
+
+.box4 {
+  background-color: #8b7a5e;
+  right: 120px;
+  bottom: 120px;
+  z-index: 2;
+}
+
+.box5 {
+  background-color: #9fd6d2;
+  left: 200px;
+  bottom: 40px;
+  z-index: 3;
+}
+
+.box6 {
+  background-color: #fffee4;
+  left: 120px;
+  bottom: 120px;
+  z-index: 4;
+}
+
+.box7 {
+  background-color: #deae70;
+  left: 40px;
+  top: 200px;
+  z-index: 5;
+}
+
+.box8 {
+  background-color: #de70cf;
+  top: 120px;
+  left: 120px;
+  z-index: 6;
 }
 
 .box9 {
@@ -91,3 +91,5 @@
   top: 0px;
 }
 /* 回答はここに書いてね */
+
+/* css 1~9まで並び替える */
