@@ -36,12 +36,16 @@
   vertical-align: middle;
 }
 
+.inline-block-boxes {
+  font-size:0;
+}
+
 .inline-block {
   display: inline-block;
+  vertical-align: middle;
   width: 225px;
   box-sizing: border-box;
   margin-left: 50px;
-  vertical-align: middle;
   font-size: 16px;
 }
 
