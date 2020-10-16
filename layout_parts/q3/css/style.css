@@ -8,17 +8,17 @@ table {
 }
 
 th {
-  background-color: #2828c7;
+  background-color: #2244aa;
   color: #ffffff;
   font-size: 18px;
   text-align: center;
   line-height: 26px;
   padding: 10px;
-  border: solid 1px #ffffff;
+  border: 1px solid #dce0e1;
 }
 
 tr:nth-child(even) {
-  background-color: #eff3f4;
+  background-color: #ecf1f2;
 }
 
 td {
@@ -30,7 +30,7 @@ td {
 }
 
 tbody tr:last-child {
-  border-top: dashed 2px #0a0a0a; 
+  border-top: dashed 2px #000; 
 }
 
 
