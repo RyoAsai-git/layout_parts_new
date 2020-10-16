@@ -9,7 +9,7 @@
 .content {
   width: 100%;
   text-align: center;
-  line-height: 55px;
+  margin-top: 0;
   table-layout: fixed;
   display: table;
 }
@@ -20,34 +20,36 @@
 
 .fixed-salmon-pink {
   width: 100px;
-  background-color: #FFC0CB;
+  background-color: #fdc8bc;
   display: table-cell;
+  padding: 20px 0;
 }
 
 .variable-pink {
-  background-color: #DDA0DD;
+  background-color: #e0abd9;
   display: table-cell;
 }
 
 .fixed-blue {
-  background-color: #AFEEEE;
+  background-color: #b6d8ed;
   width: 100px;
   display: table-cell;
 }
 
 .variable-yellow {
-  background-color: #DAA520;
+  background-color: #e5d32e;
   display: table-cell;
+  padding: 20px;
 }
 
 .variable-red {
-  background-color: #FF6347;
+  background-color: #ec8f9a;
   display: table-cell;
 }
 
 .fixed-green {
-  background-color: #00FA9A;
-  width: 550px;
+  background-color: #8fdcad;
+  width: 500px;
   display: table-cell;
 }
 /* 回答はここに書いてね */
