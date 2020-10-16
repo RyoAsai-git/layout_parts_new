@@ -11,14 +11,15 @@
 .text {
   font-size: 18px;
   line-height: 22px;
+  word-break: keep-all
 }
 
-.first-image {
+.left-image {
   float: left;
   margin-right: 20px;
 }
 
-.second-image {
+.right-image {
   float: right;
   margin-left: 20px;
 }
