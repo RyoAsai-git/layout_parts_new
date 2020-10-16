@@ -2,9 +2,11 @@
 
 /* 回答はここに書いてね */
 
-.text-align {
+.text-align-box {
   text-align: center;
-  margin: 0 auto;
+}
+.text-align {
+  display: inline-block;
   padding: 10px;
   background-color: #AFEEEE;
   width: 70px;
