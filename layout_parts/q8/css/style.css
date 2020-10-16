@@ -34,6 +34,21 @@
   .transition-box:hover .article {
     bottom: 65px;
   }
-  
+
+  .circle {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: solid 10px #ecf1f2;
+    border-top-color: #00bcdf;
+    margin: 0 auto;
+    animation: spin 1.1s linear infinite;
+  }
+
+  @keyframes spin {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+  }
+
 /* 回答はここに書いてね */
 
