@@ -2,4 +2,28 @@
 
 /* 回答はここに書いてね */
 
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.float-left-text {
+  float: left;
+  width: 200px;
+}
+
+.float-right-text {
+  float: right;
+  width: 200px;
+}
+
+.display-boxes {
+  display: table;
+}
+
+.display-box {
+  display: table-cell;
+}
+
 /* 回答はここに書いてね */
