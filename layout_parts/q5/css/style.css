@@ -14,89 +14,68 @@
   line-height: 100px;
 }
 
-.box8 {
+.number-box {
   width: 100px;
   height: 100px;
-  background-color: #EE82EE;
   position: absolute;
+}
+
+.box8 {
+  background-color: #EE82EE;
   top: 120px;
   left: 120px;
   z-index: 6;
 }
 
 .box5 {
-  width: 100px;
-  height: 100px;
   background-color: #20B2AA;
-  position: absolute;
   left: 200px;
   bottom: 40px;
   z-index: 3;
 }
 
 .box1 {
-  width: 100px;
-  height: 100px;
   background-color: #FFFACD;
-  position: absolute;
   left: 200px;
   top: 40px;
 }
 
 .box7 {
-  width: 100px;
-  height: 100px;
   background-color: #F4A460;
-  position: absolute;
   left: 40px;
   top: 200px;
   z-index: 5;
 }
 
 .box4 {
-  width: 100px;
-  height: 100px;
   background-color: #8B4513;
-  position: absolute;
   right: 120px;
   bottom: 120px;
   z-index: 2;
 }
 
 .box6 {
-  width: 100px;
-  height: 100px;
   background-color: #FFFFE0;
-  position: absolute;
   left: 120px;
   bottom: 120px;
   z-index: 4;
 }
 
 .box2 {
-  width: 100px;
-  height: 100px;
   background-color: #6495ED;
-  position: absolute;
   right: 120px;
   top: 120px;
 }
 
 .box3 {
-  width: 100px;
-  height: 100px;
   background-color: #E0FFFF;
-  position: absolute;
   right: 40px;
   top: 200px;
   z-index: 1;
 }
 
 .box9 {
-  width: 100px;
-  height: 100px;
   background-color: #4169E1;
-  position: absolute;
   position: fixed;
   top: 10px;
   left: 10px;
