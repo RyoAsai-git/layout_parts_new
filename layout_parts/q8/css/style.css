@@ -2,28 +2,35 @@
 
 /* 回答はここに書いてね */
 
-  
   .transition-box {
     margin: 0 auto;
     width: 500px;
-    height: 330px;
+    height: 333px;
     overflow: hidden;
-    /* background: #000; */
-    background-color: rgba(0,0,0,8);
+    background: #000;
+    background-color: rgba(0,0,0,0);
     position: relative;
+    line-height: 16px;
+    font-size: 16px;
+    
   }
 
   .transition-image:hover {
     transform:scale(1.5,1.5);
     transition-duration: 0.5s;
     opacity: 0.6;
+    line-height: 16px;
+    font-size: 16px;
+  }
+
+  .transition-box:hover {
+    /* background-color: #000; */
+    /* background: -webkit-linear-gradient rgba(to top, 0, 0, 0, 0); */
   }
 
   .article {
     position: absolute;
-    line-height: 16px;
-    font-size: 16px;
-    bottom: -60px;
+    bottom: -20%;
     left: 0;
     height: 40px;
     transition: .3s;
@@ -31,8 +38,12 @@
     color: #ffffff;
   }
 
+  .article p {
+    word-break: break-all
+  }
+
   .transition-box:hover .article {
-    bottom: 65px;
+    bottom: 21.5%;
   }
 
   .circle {
