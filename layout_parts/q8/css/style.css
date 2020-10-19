@@ -17,7 +17,8 @@
 }
 
 .transition-box:hover .article  {
-  bottom: 100%;
+  /* bottom: 100%; */
+  bottom: 0;
   background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.8));
 }
 
@@ -29,8 +30,10 @@
   width: 500px;
   height: 333px;
   color: #ffffff;
-  position: relative;
   word-break: break-all;
+  position: absolute;
+  left: 0;
+  bottom: -100%;
 }
 
 .text {
