@@ -25,9 +25,6 @@
   transition: 0.5s;
 }
 
-.transition-box:hover .text {
-}
-
 .article {
   width: 500px;
   height: 333px;
@@ -38,7 +35,7 @@
 
 .text {
   position: absolute;
-  bottom: 20px;
+  bottom: 5px;
   padding: 20px;
 }
 
