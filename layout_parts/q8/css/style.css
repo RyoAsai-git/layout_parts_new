@@ -7,15 +7,6 @@
   line-height: 16px;
   font-size: 16px;
   cursor: pointer;
-  /* transition: 0.5s; */
-  
-}
-
-.transition-image:hover {
-  line-height: 16px;
-  font-size: 16px;
-  cursor: pointer;
-  background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.8));
 }
 
 .transition-box:hover .transition-image {
@@ -25,70 +16,33 @@
   transform:scale(1.5,1.5);
 }
 
+.transition-box:hover .article  {
+  bottom: 100%;
+  background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.8));
+}
+
 .transition-image, .article {
   transition: 0.5s;
 }
 
-
-
-/* hover親 traboxにかける */
-/*  imgにはかけない*/
-/* textボックス traboxと同じ大きさ  bottom */
-
-/* .layer {
-  background-color: transparent;
-  opacity: 1;
-  margin: 0 auto;
-  width: 500px;
-  height: 333px;
+.transition-box:hover .text {
 }
-
-.layer:hover {
-  background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,8));
-} */
-
-/* /layerのクラスを作ってみる */
-/* .transition-box::before {
-  background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,8));
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  content: '';
-} */
-
-/* .transition-box:hover:before {
-  background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,8));
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  content: '';
-}
- */
 
 .article {
-  position: absolute;
-  bottom: -20%;
-  left: 0;
-  height: 40px;
-  transition: .3s;
-  padding: 20px;
+  width: 500px;
+  height: 333px;
   color: #ffffff;
-}
-
-.article p {
+  position: relative;
   word-break: break-all;
-  /* background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,8)); */
-  
 }
 
-.transition-box:hover .article {
-  bottom: 21.5%;
-  
+.text {
+  position: absolute;
+  bottom: 20px;
+  padding: 20px;
 }
+
+
 
 .circle {
   height: 100px;
