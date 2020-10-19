@@ -58,3 +58,10 @@
   0% {transform: rotate(0deg);}
   100% {transform: rotate(360deg);}
 }
+
+/* 
+cssの方が処理軽い
+今回のようにグルグル回るだけならcss
+
+ここから処理があるならJSを使う
+*/

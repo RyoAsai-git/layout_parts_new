@@ -16,8 +16,8 @@
 }
 
 .float-text:first-child{
-  float: left;
-  width: 225px;
+  /* float: left;
+  width: 225px; */
   margin-left: 0;
 }
 
@@ -66,22 +66,36 @@
   box-sizing: border-box;
 }
 
+.wrap {
+  font-size: 0;
+}
+
 .box-state {
   display: inline-block;
   width: 300px;
   vertical-align: top;
-}
-
-.box_text {
   font-size: 16px;
 }
 
 .box-flex {
   display: inline-block;
   width: 100%;
-  margin-left: -304.5px;
+  margin-left: -300px;
   padding-left: 350px;
   box-sizing: border-box;
+  font-size: 16px;
 }
 
 /* 回答はここに書いてね */
+
+
+/* 
+基本flex
+.inline-block-box
+float
+
+table-cellは昔
+
+どうしても無理ならネガティブマージン
+
+*/
