@@ -7,22 +7,58 @@
   line-height: 16px;
   font-size: 16px;
   cursor: pointer;
+  /* transition: 0.5s; */
+  
 }
 
 .transition-image:hover {
-  transform:scale(1.5,1.5);
-  transition-duration: 0.5s;
   line-height: 16px;
   font-size: 16px;
   cursor: pointer;
+  background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.8));
 }
 
-.transition-box:hover {
+.transition-box:hover .transition-image {
+  width: 500px;
+  height: 333px;
+  transition: 0.5s;
+  transform:scale(1.5,1.5);
+}
+
+.transition-image, .article {
+  transition: 0.5s;
+}
+
+
+
+/* hover親 traboxにかける */
+/*  imgにはかけない*/
+/* textボックス traboxと同じ大きさ  bottom */
+
+/* .layer {
+  background-color: transparent;
+  opacity: 1;
+  margin: 0 auto;
   width: 500px;
   height: 333px;
 }
 
-.transition-box::before {
+.layer:hover {
+  background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,8));
+} */
+
+/* /layerのクラスを作ってみる */
+/* .transition-box::before {
+  background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,8));
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: '';
+} */
+
+/* .transition-box:hover:before {
   background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,8));
   position: absolute;
   top: 0;
@@ -31,17 +67,7 @@
   left: 0;
   content: '';
 }
-
-.transition-box:hover:before {
-  background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,8));
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  content: '';
-}
-
+ */
 
 .article {
   position: absolute;
